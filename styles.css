@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+h1{
+    color: darkblue;
+}
+p{
+    font-size: 18px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: navy;
+}
+/* End of styles.css */
