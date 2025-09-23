@@ -1,0 +1,12 @@
+<img src="c:\Users\mdewi\Downloads\pastries.jpg" alt="Pastries" width="200">
+    <footer>
+        <p>&copy;Indulge in our selection of exquisite pastries.</p>
+    </footer>
+<img src=c:\Users\mdewi\Downloads\bread1.jpg alt="Breads" width="200">
+<footer>
+    <p>&copy; Endulge in our selection of exquisite pastries.</p>
+</footer>
+<img src=c:\Users\mdewi\Downloads\cookies.jpg alt="Cakes" width="200">
+    <footer>
+        <p>&copy;Delight in our assortment of delicious cookies.</p>
+    </footer>
