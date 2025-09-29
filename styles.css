@@ -32,5 +32,8 @@ img{
     height: auto;
     border-radius: 10px;
 }
-/* End of styles.css */
-/* End of styles.css */
+background-image-bread{
+    background-image: url('images1/bread1.png');
+    background-size: cover;
+    background-position: center;
+}
