@@ -12,6 +12,10 @@ h1{
 h2{
     color: #654321;
 }
+h3{
+    color: #654321;
+    text-align: center;
+}
 p{
     font-size: 18px;
 }
