@@ -32,8 +32,11 @@ img{
     height: auto;
     border-radius: 10px;
 }
-background-image-bread{
-    background-image: url('images1/bread1.png');
-    background-size: cover;
-    background-position: center;
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
 }
