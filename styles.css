@@ -3,10 +3,7 @@ body{
     margin: 0;
     background-color: #F5F5DC;
     color: #654321;
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
+    text-align: center; 
     align-items: center; 
 }
 h1{
