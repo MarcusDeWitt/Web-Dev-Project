@@ -12,8 +12,6 @@ body{
 h1{
     color: #654321;
     text-align: center;
-    display: flex; 
-    align-items: center; 
 }
 h2{
     color: #654321;
