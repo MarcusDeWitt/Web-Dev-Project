@@ -1,65 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baked to Perfection</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="images1/favicon.png">
-</head>
-<body>
-    <header>
-        <a href="https://marcusdewitt.github.io/Web-Dev-Project/" style="border:none; background:#eee; padding:10px; display:inline-block;">
-            <img src="images1/BakeryLogo.png" alt="Press to go to home page">
+<section style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; box-sizing: border-box;">
+    <div style="flex: 1 1 0; min-width: 200px; max-width: 300px; box-sizing: border-box;">
+        <h2>Breads</h2>
+        <a href="breads.html" style="text-decoration: none;">
+            <button style="width: 250px; height: 320px; display: flex; flex-direction: column; align-items: center; background: none; border: 1px solid #654321; padding: 15px; cursor: pointer; gap: 5px;">
+                <span id="breads" style="font-weight: bold; color: #654321;">Breads</span>
+                <img src='images1/bread1.png' alt="Breads" style="max-width:100%;height:auto;">
+                <p style="color: #654321; padding: 5px; border-radius: 5px;">
+                    Explore our variety of freshly baked breads.
+                </p>
+            </button>
         </a>
-        <h1>Baked 2 Perfection</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="https://marcusdewitt.github.io/Web-Dev-Project/">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section style="display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; box-sizing: border-box;">
-            <div id="breads" style="flex: 1 1 0; min-width: 200px; max-width: 300px; box-sizing: border-box;">
-                <h2>Breads</h2>
-                <a href="breads.html" style="text-decoration: none;">
-                    <button style="width: 100%; display: flex; flex-direction: column; align-items: center; background: none; border: 1px solid #654321; padding: 15px; cursor: pointer; gap: 5px;">
-                        <img src='images1/bread1.png' alt="Breads" style="max-width:100%;height:auto;">
-                        <p style="color: #654321; padding: 5px; border-radius: 5px;">
-                            Explore our variety of freshly baked breads.
-                        </p>
-                    </button>
-                </a>
-            </div>
-            <div id="cookies" style="flex: 1 1 0; min-width: 200px; max-width: 300px; box-sizing: border-box;">
-                <h2>Cookies</h2>
-                <a href="cookies.html" style="text-decoration: none;">
-                    <button style="width: 100%; display: flex; flex-direction: column; align-items: center; background: none; border: 1px solid #654321; padding: 15px; cursor: pointer; gap: 5px;">
-                        <img src="images1/cookies.png" alt="Cookies">
-                        <p style="color: #654321; padding: 5px; border-radius: 5px;">
-                            Delight in our assortment of delicious cookies.
-                        </p>
-                    </button>
-                </a>
-            </div>
-            <div id="pastries" style="flex: 1 1 0; min-width: 200px; max-width: 300px; box-sizing: border-box;">
-                <h2>Pastries</h2>
-                <a href="pastries.html" style="text-decoration: none;">
-                    <button style="width: 100%; display: flex; flex-direction: column; align-items: center; background: none; border: 1px solid #654321; padding: 15px; cursor: pointer; gap: 5px;">
-                        <img src="images/Pastries.png" alt="Pastries">
-                        <p style="color: #654321; padding: 5px; border-radius: 5px;">
-                            Indulge in our selection of exquisite pastries.
-                        </p>
-                    </button>
-                </a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Baked 2 Perfection</p>
-    </footer>
-</body>
-</html>
+    </div>
+    <div style="flex: 1 1 0; min-width: 200px; max-width: 300px; box-sizing: border-box;">
+        <h2>Cookies</h2>
+        <a href="cookies.html" style="text-decoration: none;">
+            <button style="width: 250px; height: 320px; display: flex; flex-direction: column; align-items: center; background: none; border: 1px solid #654321; padding: 15px; cursor: pointer; gap: 5px;">
+                <span id="cookies" style="font-weight: bold; color: #654321;">Cookies</span>
+                <img src="images1/cookies.png" alt="Cookies">
+                <p style="color: #654321; padding: 5px; border-radius: 5px;">
+                    Delight in our assortment of delicious cookies.
+                </p>
+            </button>
+        </a>
+    </div>
+    <div style="flex: 1 1 0; min-width: 200px; max-width: 300px; box-sizing: border-box;">
+        <h2>Pastries</h2>
+        <a href="pastries.html" style="text-decoration: none;">
+            <button style="width: 250px; height: 320px; display: flex; flex-direction: column; align-items: center; background: none; border: 1px solid #654321; padding: 15px; cursor: pointer; gap: 5px;">
+                <span id="pastries" style="font-weight: bold; color: #654321;">Pastries</span>
+                <img src="images/Pastries.png" alt="Pastries">
+                <p style="color: #654321; padding: 5px; border-radius: 5px;">
+                    Indulge in our selection of exquisite pastries.
+                </p>
+            </button>
+        </a>
+    </div>
+</section>
