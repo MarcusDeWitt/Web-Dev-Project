@@ -46,7 +46,7 @@ section img{
 
 }
 .image-button {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 40px; /* More space for larger images */
@@ -60,3 +60,4 @@ section img{
     background-color: transparent;
     color: black;
 }
+
