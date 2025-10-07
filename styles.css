@@ -5,6 +5,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: #f5f5dc;
+    line-height: 1.5;
         }
 h1, h2, h3 {
     color: #654321;
@@ -13,8 +14,8 @@ h1, h2, h3 {
     margin: 0;
         }
 p {
-        font-size: 18px;
-
+    font-size: 18px;
+    line-height: 1.5;
         }
 button {
     padding: 10px 20px;
