@@ -15,7 +15,7 @@ h1, h2, h3 {
 p {
         font-size: 18px;
         color:#654321;
-        
+
         }
 button {
     padding: 10px 20px;
@@ -44,4 +44,19 @@ section img{
     width: 100%;
     object-fit: cover;
 
+}
+.image-button {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px; /* More space for larger images */
+    height: 40px;
+    line-height: 40px; /* Vertically center text */
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+    color: black;
 }
