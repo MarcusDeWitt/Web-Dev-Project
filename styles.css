@@ -46,7 +46,7 @@ section img{
 
 }
 .image-button {
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 40px; /* More space for larger images */
