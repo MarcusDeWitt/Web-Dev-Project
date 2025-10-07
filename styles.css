@@ -59,4 +59,9 @@ section img{
     background-color: transparent;
     color: black;
 }
-
+ul {
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
