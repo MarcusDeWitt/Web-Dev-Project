@@ -50,6 +50,19 @@
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
             <input type="submit" value="Send">
             </form>
+            <script>
+                function leaveAMessage(event) {
+                    event.preventDefault(); 
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+                    const result = processMessage(name, email, message);
+                    alert(result);
+                    document.getElementById('leaveMessageForm').reset();
+                    successMessage();
+                    return false;
+                }
+            </script>
         </section>
     </main>
     <footer>

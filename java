@@ -11,3 +11,8 @@ function leaveAMessage(name, message) {
     }
     return `Message from ${name}: ${message}`;
 }
+
+function successMessage() {
+    alert("Message sent!");
+    return "Message sent!";
+}
