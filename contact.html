@@ -6,7 +6,6 @@
     <title>Contact Us - Baked to Perfection</title>
     <link rel="stylesheet" href="styles.css">
     <script src="java.js"></script>
-</html>
     <style>
         body {
             color: #654321;
@@ -50,20 +49,36 @@
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
             <input type="submit" value="Send">
             </form>
+            <div id="responseMessage"></div>
+
             <script>
                 function leaveAMessage(event) {
-                    event.preventDefault(); 
-                    const name = document.getElementById('name').value;
-                    const email = document.getElementById('email').value;
-                    const message = document.getElementById('message').value;
-                    const result = processMessage(name, email, message);
-                    alert(result);
-                    document.getElementById('leaveMessageForm').reset();
-                    successMessage();
+                    event.preventDefault();
+
+                    const form = document.getElementById('leaveMessageForm');
+                    const formData = new FormData(form);
+                    const responseMessage = document.getElementById('responseMessage');
+
+                    fetch(form.action, {
+                        method: form.method,
+                        body: formData,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    }).then(response => {
+                        if (response.ok) {
+                            responseMessage.innerHTML = '<p>Thank you for your message! We will get back to you soon.</p>';
+                            form.reset();
+                        } else {
+                            responseMessage.innerHTML = '<p>Oops! There was a problem submitting your form</p>';
+                        }
+                    }).catch(error => {
+                        responseMessage.innerHTML = '<p>Oops! There was a problem submitting your form</p>';
+                    });
+
                     return false;
                 }
             </script>
-        </section>
     </main>
     <footer>
         <p>&copy; 2024 Baked 2 Perfection. All rights reserved.</p>
